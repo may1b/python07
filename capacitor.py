@@ -1,9 +1,5 @@
-from ex1 import (
-    HealingCreature,
-    HealingCreatureFactory,
-    TransformCreatureFactory,
-    TransformingCreature,
-)
+from ex1 import HealingCreatureFactory, TransformCreatureFactory
+from ex1.creature import HealingCreature, TransformingCreature
 
 
 def test_healing_factory(factory: HealingCreatureFactory) -> None:
